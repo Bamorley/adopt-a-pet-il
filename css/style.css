@@ -6,14 +6,18 @@ p {
 h1 {
   font-family: 'Preahvihear', sans-serif;
   font-size: 68px;
+  color: #3B878F;
 }
 h2 {
   font-family: 'Preahvihear', sans-serif;
   font-size: 60px;
+  color: #C685C5;
+  margin: 100px 0px 64px 67px;
 }
 h3 {
   font-family: 'Preahvihear', sans-serif;
   font-size: 32px;
+  color: #0F2D51; 
 }
 .bodySmall {
   font-size: 16px;
@@ -31,12 +35,26 @@ h3 {
 }
 /* hero section */
 .heroBackground {
-    background-color: aquamarine;
+    background-color: #EEE7D0;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .carousel {
   max-width: 500px;
+  margin-right: 67px;
+}
+/* cards */
+.card-body {
+  background-color: #B1BE52;
+}
+.card-text {
+  color: white;
+  font-weight: bold;
+}
+.heroLeft {
+  margin-left: 67px;
+  margin-right: 20px;
 }
 /* image grid css */
 .row {
