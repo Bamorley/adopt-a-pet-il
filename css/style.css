@@ -18,8 +18,49 @@
 .thirdSection {
     display: flex;
     flex-direction: row;
-}
 
+}
+.thirdSection .row {
+  width: 50%;
+}
+.thirdCopy {
+  margin-left: 20px;
+  width: 50%;
+}
+.carousel {
+  max-width: 500px;
+}
+/* start footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: peachpuff;
+  justify-content: center;
+}
+.footerLogo {
+  max-width: 200px;
+}
+.footerC1,.footerC2,.footerC3,.footerC4 {
+  max-width: 360px;
+  padding: 40px;
+}
+.sIcon {
+  width: 40px;
+  padding: 5px;
+}
+.mb-2 {
+  width: 120px !important;
+  margin-left: 0 !important;
+}
+.form-inline {
+  display: flex;
+  flex-direction: row;
+}
+.form-control {
+  width: 120px !important;
+
+}
+/* end footer */
 
 
 
