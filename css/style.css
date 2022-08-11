@@ -1,7 +1,42 @@
+/* Typography and font size */
+p {
+  font-family: 'Krub', sans-serif;
+  font-size: 20px;
+}
+h1 {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 68px;
+}
+h2 {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 60px;
+}
+h3 {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 32px;
+}
+.bodySmall {
+  font-size: 16px;
+}
+/* buttons */
+.btn-primary {
+  background-color: #D24B4E;
+  color:#FFFFFF;
+  outline: none !important;
+  border-style: none;
+  box-shadow: 2px 2px 8px #888888;
+}
+.btn-primary:hover {
+  background-color: #3B878F;
+}
+/* hero section */
 .heroBackground {
     background-color: aquamarine;
     display: flex;
     flex-direction: row;
+}
+.carousel {
+  max-width: 500px;
 }
 /* image grid css */
 .row {
@@ -14,11 +49,10 @@
   .column img {
     vertical-align: middle;
   }
-/* end image grid css */
+/* quick facts */
 .thirdSection {
     display: flex;
     flex-direction: row;
-
 }
 .thirdSection .row {
   width: 50%;
@@ -27,15 +61,15 @@
   margin-left: 20px;
   width: 50%;
 }
-.carousel {
-  max-width: 500px;
-}
-/* start footer */
+/* footer */
 .footer {
   display: flex;
   flex-direction: row;
-  background-color: peachpuff;
+  background-color: #0F2D51;
   justify-content: center;
+}
+.footerh3 {
+  color: #B1BE52;
 }
 .footerLogo {
   max-width: 200px;
@@ -45,22 +79,31 @@
   padding: 40px;
 }
 .sIcon {
-  width: 40px;
-  padding: 5px;
+  max-width: 40px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 .mb-2 {
-  width: 120px !important;
+  width: 80px !important;
   margin-left: 0 !important;
 }
 .form-inline {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .form-control {
-  width: 120px !important;
-
+  width: 180px !important;
 }
-/* end footer */
+.footer p {
+  color: #FFFFFF;
+}
+.footer a {
+  color: #FFFFFF;
+}
+.footer a:hover {
+  text-decoration: underline solid white;
+}
 
 
 
