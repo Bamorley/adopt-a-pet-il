@@ -3,6 +3,10 @@ p {
   font-family: 'Krub', sans-serif;
   font-size: 20px;
 }
+li {
+  font-family: 'Krub', sans-serif;
+  font-size: 20px;
+}
 h1 {
   font-family: 'Preahvihear', sans-serif;
   font-size: 68px;
@@ -11,7 +15,7 @@ h1 {
 h2 {
   font-family: 'Preahvihear', sans-serif;
   font-size: 60px;
-  color: #C685C5;
+  color: #A0589F;
   margin: 100px 0px 64px 67px;
 }
 h3 {
@@ -22,13 +26,32 @@ h3 {
 .bodySmall {
   font-size: 16px;
 }
+/* nav bar */
+.nav-item {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 32px;
+  color: #B02A37;
+}
+.nav-link {
+  color: #B02A37 !important;
+}
+.navbar-brand {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 68px;
+  color: #0F2D51;
+}
+.dropdown-menu {
+  border-style: none !important;
+  outline: none !important;
+
+}
 /* buttons */
 .btn-primary {
   background-color: #D24B4E;
   color:#FFFFFF;
   outline: none !important;
   border-style: none;
-  box-shadow: 2px 2px 8px #888888;
+  box-shadow: 2px 2px 8px black;
 }
 .btn-primary:hover {
   background-color: #3B878F;
@@ -44,22 +67,32 @@ h3 {
   max-width: 500px;
   margin-right: 67px;
 }
+.heroLeft {
+  margin-left: 67px;
+  margin-right: 20px;
+}
 /* cards */
 .card-body {
   background-color: #B1BE52;
 }
 .card-text {
-  color: white;
+  color: 0F2D51;
   font-weight: bold;
 }
-.heroLeft {
-  margin-left: 67px;
-  margin-right: 20px;
+.card-group {
+  margin: 0px 67px 0px 67px;
+}
+.card1, .card2 {
+  margin: 0px 45px 0px 0px;
+}
+.card-title {
+  color: white; 
 }
 /* image grid css */
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin: 0px 50px 100px 67px
 }
 .column {
     flex: 50%;
@@ -78,6 +111,16 @@ h3 {
 .thirdCopy {
   margin-left: 20px;
   width: 50%;
+}
+.reqitem {
+  display:flex; 
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.reqcopy {
+  margin-top: 15px;
+  margin-left: 10px;
 }
 /* footer */
 .footer {
