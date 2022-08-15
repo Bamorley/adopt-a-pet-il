@@ -2,6 +2,7 @@
 p {
   font-family: 'Krub', sans-serif;
   font-size: 20px;
+  color: #0F2D51;
 }
 li {
   font-family: 'Krub', sans-serif;
@@ -9,14 +10,15 @@ li {
 }
 h1 {
   font-family: 'Preahvihear', sans-serif;
-  font-size: 68px;
-  color: #3B878F;
+  font-size: 48px;
+  color: #0F2D51;
+  margin-bottom: 20px;
 }
 h2 {
   font-family: 'Preahvihear', sans-serif;
-  font-size: 60px;
+  font-size: 42px;
   color: #A0589F;
-  margin: 100px 0px 64px 67px;
+  margin: 72px 0px 40px 67px;
 }
 h3 {
   font-family: 'Preahvihear', sans-serif;
@@ -28,17 +30,21 @@ h3 {
 }
 /* nav bar */
 .nav-item {
-  font-family: 'Preahvihear', sans-serif;
-  font-size: 32px;
-  color: #B02A37;
+  font-family: 'Krub', sans-serif;
+  font-size: 24px;
+  color: #0F2D51;
 }
 .nav-link {
-  color: #B02A37 !important;
+  color: #0F2D51 !important;
 }
 .navbar-brand {
   font-family: 'Preahvihear', sans-serif;
-  font-size: 68px;
-  color: #0F2D51;
+  font-size: 40px;
+  color: #0F2D51 !important;
+}
+.navbar-brand img {
+  margin-left: 40px;
+  margin-right: 10px;
 }
 .dropdown-menu {
   border-style: none !important;
@@ -64,8 +70,7 @@ h3 {
     align-items: center;
 }
 .carousel {
-  max-width: 500px;
-  margin-right: 67px;
+  max-width: 750px;
 }
 .heroLeft {
   margin-left: 67px;
@@ -84,6 +89,9 @@ h3 {
 }
 .card1, .card2 {
   margin: 0px 45px 0px 0px;
+}
+.card-img-top {
+  max-height: 314px;
 }
 .card-title {
   color: white; 
@@ -106,11 +114,11 @@ h3 {
     flex-direction: row;
 }
 .thirdSection .row {
-  width: 50%;
+  width: 60%;
 }
 .thirdCopy {
   margin-left: 20px;
-  width: 50%;
+  width: 40%;
 }
 .reqitem {
   display:flex; 
@@ -118,9 +126,24 @@ h3 {
   align-items: center;
   margin-bottom: 10px;
 }
-.reqcopy {
-  margin-top: 15px;
+.reqitem img {
   margin-left: 10px;
+}
+.reqcopy {
+  margin: 15px 20px 15px 10px;
+}
+.requirements {
+  background-color: #F4F3F3;
+  margin-right: 67px;
+}
+.tsbutton {
+  margin: 30px 0px 50px 0px;
+}
+.tsbuttond {
+  margin-right: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* footer */
 .footer {
@@ -133,7 +156,8 @@ h3 {
   color: #B1BE52;
 }
 .footerLogo {
-  max-width: 200px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 .footerC1,.footerC2,.footerC3,.footerC4 {
   max-width: 360px;
