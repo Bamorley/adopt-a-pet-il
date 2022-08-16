@@ -217,9 +217,22 @@ h3 {
 .footer a:hover {
   text-decoration: underline solid white;
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   body {
     background-color: lightblue;
+  }
+  .footer {
+    display: block;
+  }
+  .card1, .card2 {
+    margin-right: 0px;
+  }
+  .thirdSection {
+    display: block;
+  }
+  .row {
+    width: 100% !important;
+    margin-left: 67px;
   }
 }
 
