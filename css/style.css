@@ -89,13 +89,16 @@ h3 {
     flex-direction: row;
     align-items: center;
 }
-.carousel {
+.carousel-img-width {
   width: 100%;
 }
 .heroLeft {
   margin-left: 67px;
   margin-right: 20px;
   width: 100%;
+}
+.carousel-item {
+  max-height: 500px;
 }
 /* cards */
 .card-body {
@@ -234,7 +237,23 @@ h3 {
     width: 100% !important;
     margin-left: 67px;
   }
-}
+  .heroBackground {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .navbar-brand {
+    font-size: 28px;
+    margin-left: 0px !important;
+  }
+  .newRoommate {
+    margin-top: 40px;
+    font-size: 32px;
+  }
+  .heroLeft {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  }
 
 
 
