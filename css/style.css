@@ -1,12 +1,12 @@
 /* Typography and font size */
 p {
   font-family: 'Krub', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #0F2D51;
 }
 li {
   font-family: 'Krub', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 h1 {
   font-family: 'Preahvihear', sans-serif;
@@ -31,8 +31,9 @@ h3 {
 /* nav bar */
 .nav-item {
   font-family: 'Krub', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   color: #0F2D51;
+  margin-left: 40px;
 }
 .nav-link {
   color: #0F2D51 !important;
@@ -57,10 +58,29 @@ h3 {
   color:#FFFFFF;
   outline: none !important;
   border-style: none;
-  box-shadow: 2px 2px 8px black;
+  box-shadow: 2px 2px 8px gray;
+  transition: all 0.3s ease-in-out;
 }
 .btn-primary:hover {
+  transform: scale(1.1);
+  background-color: #D24B4E !important;
+  font-weight: 600;
+}
+.btn-secondary {
   background-color: #3B878F;
+  color:#FFFFFF;
+  outline: none !important;
+  border-style: none;
+  box-shadow: 2px 2px 8px gray;
+  transition: all 0.3s ease-in-out;
+}
+.btn-secondary:hover {
+  transform: scale(1.1);
+  background-color: #3B878F !important;
+  font-weight: 600;
+}
+.footerButton {
+  box-shadow: 2px 2px 8px black !important;
 }
 /* hero section */
 .heroBackground {
@@ -70,11 +90,12 @@ h3 {
     align-items: center;
 }
 .carousel {
-  max-width: 750px;
+  width: 100%;
 }
 .heroLeft {
   margin-left: 67px;
   margin-right: 20px;
+  width: 100%;
 }
 /* cards */
 .card-body {
@@ -120,17 +141,24 @@ h3 {
   margin-left: 20px;
   width: 40%;
 }
+.firstcheck {
+  margin-top: 5px;
+}
 .reqitem {
   display:flex; 
   flex-direction: row;
   align-items: center;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+.reqitem1 {
+  margin-top: 5px;
 }
 .reqitem img {
   margin-left: 10px;
 }
 .reqcopy {
-  margin: 15px 20px 15px 10px;
+  margin: 15px 20px 10px 10px;
 }
 .requirements {
   background-color: #F4F3F3;
@@ -189,7 +217,11 @@ h3 {
 .footer a:hover {
   text-decoration: underline solid white;
 }
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 
 
 
