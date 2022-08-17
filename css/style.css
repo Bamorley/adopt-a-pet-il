@@ -94,12 +94,15 @@ h3 {
 }
 .heroLeft {
   margin-left: 67px;
-  margin-right: 20px;
+  margin-right: 60px;
   width: 100%;
 }
 /* cards */
 .card-body {
   background-color: #B1BE52;
+}
+.card {
+  padding: 0;
 }
 .card-text {
   color: 0F2D51;
@@ -230,6 +233,7 @@ h3 {
   }
   .card1, .card2 {
     margin-right: 0px;
+    margin-bottom: 50px !important;
   }
   .thirdSection {
     display: block;
@@ -241,6 +245,12 @@ h3 {
   .heroBackground {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .carousel {
+    width: 100% !important;
+  }
+  #carouselExampleControls {
+    width: 100vw !important;
   }
   .navbar-brand {
     font-size: 28px;
@@ -257,8 +267,9 @@ h3 {
     margin: 0px 0px 40px 20px;
   }
   .card-group {
-    margin-left: 20px;
     margin-right: 20px;
+    margin-left: 20px;
+    display: block;
   }
   h2 {
     margin-left: 20px;
@@ -271,7 +282,13 @@ h3 {
   }
   .thirdCopy {
     width: 100%;
-    margin-right: 20px;
+    margin-right: 20px !important;
+  }
+  .thirdCopy li {
+    margin-right: 60px !important;
+  }
+  .thirdCopy p {
+    margin-right: 60px !important;
   }
 
   }
