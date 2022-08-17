@@ -11,7 +11,7 @@ li {
 h1 {
   font-family: 'Preahvihear', sans-serif;
   font-size: 48px;
-  color: #0F2D51;
+  color: #3B878F;
   margin-bottom: 20px;
 }
 h2 {
@@ -97,9 +97,6 @@ h3 {
   margin-right: 20px;
   width: 100%;
 }
-.carousel-item {
-  max-height: 500px;
-}
 /* cards */
 .card-body {
   background-color: #B1BE52;
@@ -143,6 +140,7 @@ h3 {
 .thirdCopy {
   margin-left: 20px;
   width: 40%;
+  margin-right: 67px;
 }
 .firstcheck {
   margin-top: 5px;
@@ -220,10 +218,13 @@ h3 {
 .footer a:hover {
   text-decoration: underline solid white;
 }
-@media screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+.inConclusion {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 995px;
+}
+@media screen and (max-width: 831px) {
   .footer {
     display: block;
   }
@@ -234,8 +235,8 @@ h3 {
     display: block;
   }
   .row {
-    width: 100% !important;
-    margin-left: 67px;
+    width: 90% !important;
+    margin: 0px 20px 20px 20px;
   }
   .heroBackground {
     display: flex;
@@ -246,14 +247,35 @@ h3 {
     margin-left: 0px !important;
   }
   .newRoommate {
-    margin-top: 40px;
     font-size: 32px;
+    margin: 40px 20px 20px 20px;
   }
-  .heroLeft {
-    margin-left: 50px;
-    margin-right: 50px;
+  .herocopy {
+    margin: 0px 20px 20px 20px;
   }
+  .herobutton {
+    margin: 0px 0px 40px 20px;
   }
+  .card-group {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  h2 {
+    margin-left: 20px;
+  }
+  h1 {
+    margin-left: 20px;
+  }
+  p {
+    margin-left: 20px;
+  }
+  .thirdCopy {
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  }
+
 
 
 
