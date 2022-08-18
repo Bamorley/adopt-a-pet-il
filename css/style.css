@@ -28,6 +28,9 @@ h3 {
 .bodySmall {
   font-size: 16px;
 }
+.bodycolor {
+  background-color: #EEE7D0;
+}
 /* nav bar */
 .nav-item {
   font-family: 'Krub', sans-serif;
@@ -90,8 +93,7 @@ h3 {
     align-items: center;
 }
 .carousel-item {
-    max-width: 565px;
-    max-height: 456px;
+    width: 100%;
 }
 .heroLeft {
   margin-left: 67px;
